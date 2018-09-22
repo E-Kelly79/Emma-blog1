@@ -20,16 +20,14 @@
                     <div class="col-lg-7 col-md-7 col-sm-12  col-xs-12">
                         <div class="slider-profile">
                             <div class="back-pic"></div>
-                            <div class="profile"><img src="./images/profile.jpg" alt="" class="img-responsive"></div>
+<!--                            <div class="profile"><img src="./images/profile.jpg" alt="" class="img-responsive"></div>-->
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <div class="slider-captions">
-                            <h1 class="slider-title">Hi, I Am
-                                Personalised
-                                Diet Coach </h1>
-                            <p class="slider-text hidden-xs">Personal coach | Healthy habits | Track progress </p>
-                            <a href="#" class="btn btn-default btn-lg hidden-sm hidden-xs">About Nutirionist</a>
+                            <h1 class="slider-title">Hi, I Am A Food Blogger </h1>
+                            <p class="slider-text hidden-xs">Recpies | Grow Your Own | Upcycling </p>
+                            <a href="#" class="btn btn-default btn-lg hidden-sm hidden-xs">My Blog</a>
                         </div>
                     </div>
                 </div>
@@ -42,11 +40,9 @@
                     <div class="col-lg-7 col-md-7 col-sm-12  col-xs-12"></div>
                     <div class="col-lg-5 col-md-5 col-sm-12  col-xs-12">
                         <div class="slider-captions">
-                            <h1 class="slider-title">Create Lean &amp;
-                                Healthy Body
-                                For Life</h1>
-                            <p class="slider-text hidden-xs">Create Lean | Healthy Body | Healthy Life</p>
-                            <a href="#" class="btn btn-default btn-lg hidden-sm hidden-xs">View My Services</a>
+                            <h1 class="slider-title">Lorem ipsum</h1>
+                            <p class="slider-text hidden-xs">Dolor Sit Amet| Consectetur Adipisicing  | Explicabo Inventore </p>
+                            <a href="#" class="btn btn-default btn-lg hidden-sm hidden-xs">Impedit Enim Ipsam</a>
                         </div>
                     </div>
                 </div>
@@ -59,11 +55,9 @@
                     <div class="col-lg-7 col-md-7 col-sm-12  col-xs-12"></div>
                     <div class="col-lg-5 col-md-5 col-sm-12  col-xs-12">
                         <div class="slider-captions">
-                            <h1 class="slider-title">LET'S BEGIN YOUR
-                                HEALTHIEST JOURNEY
-                                TOGETHER</h1>
-                            <p class="slider-text hidden-xs">Lets Begin | Healthiest Journey | Together </p>
-                            <a href="#" class="btn btn-default btn-lg  hidden-sm hidden-xs">Get started Now</a>
+                            <h1 class="slider-title">Saepe Ipsum Animi Optio  </h1>
+                            <p class="slider-text hidden-xs">Nesciunt Iusto | Blanditiis Facilis | Odio Facere Dolores</p>
+                            <a href="#" class="btn btn-default btn-lg  hidden-sm hidden-xs">Assumenda Natus Architecto.</a>
                         </div>
                     </div>
                 </div>
@@ -129,18 +123,17 @@
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="service-block ">
-                    <div class="service-img"><a href="#"><img src="./images/post-img-1.jpg"></a></div>
+                    <div class="service-img">
+                        <a href="post.php?p_id=<?php echo $post_id;?>">
+                            <img src="./images/<?php echo $post_image; ?>">
+                        </a>
+                    </div>
                     <div class="service-content">
-                        <h3><a href="#">
-                                <?php echo $post_title; ?></a></h3>
-                        <p>
-                            <?php echo $post_content; ?>
-                        </p>
-                        <p>
-                            <?php echo $post_date; ?>
-                        </p>
+                        <h3><?php echo $post_title; ?></h3>
+                        <p><?php echo $post_content; ?></p>
+                        <p><?php echo $post_date; ?></p>
                         <div class="header-btn">
-                            <a href="#" class="btn btn-default">Read More</a>
+                            <a href="post.php?p_id=<?php echo $post_id;?>" class="btn btn-default">Read More</a>
                         </div>
                     </div>
                 </div>

@@ -6,25 +6,18 @@
         <div id="navigation">
             <ul>
                 <li class="active"><a href="index.php" title="Home">Home</a></li>
-                <li><a href="service.html" title="My service">my service</a> </li>
                 <li><a href="about-me.html" title="About me">About me</a> </li>
-                <li class="has-sub"><a href="blog-default.html" title="Blog ">Blog</a>
-                    <ul>
-                        <li><a href="blog-default.html" title="Blog">Blog Default</a></li>
-                        <li><a href="blog-single.html" title="Blog Single ">Blog Single</a></li>
-                    </ul>
-                </li>
-                <li class="has-sub"><a href="#" title="Features ">Features</a>
-                    <ul>
-                        <li><a href="diet-plan.html" title="diet-plan">Diet plan</a> </li>
-                        <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
-                        <li><a href="faq.html" title="FAQ">FAQ</a></li>
-                        <li><a href="404-error.html" title="404-error">404-error</a> </li>
-                        <li><a href="styleguide.html" title="Styleguide">styleguide</a> </li>
-                    </ul>
-                </li>
-                <li><a href="contact-us.html" title="Contact Us">Contact Us</a>
-                </li>
+                <li><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
+                <li><a href="https://www.facebook.com/Emmascottagekitchen/" target="_blank"><span><i class="fa fa-facebook-square"></i></span></a></li>
+                <li><a href="https://www.instagram.com/emmascottagekitchen/" target="_blank"><span><i class="fa fa-instagram"></i></span></a></li>
+                <li><a href="#" target="_blank"><span class="active"><i class="fa fa-twitter-square"></i></span></a></li>
+                <li><a href="#" target="_blank"><span><i class=" fa fa-pinterest-square"></i> </span></a></li>
+                <li><a href="#" target="_blank"><span><i class="fa fa-linkedin-square"></i></span></a></li>
+
+
+
+
+
             </ul>
         </div>
     </div>
