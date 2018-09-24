@@ -6,7 +6,7 @@
         <div id="navigation">
             <ul>
                 <li class="active"><a href="index.php" title="Home">Home</a></li>
-                <li><a href="about-me.html" title="About me">About me</a> </li>
+                <li><a href="#" title="About me">About me</a> </li>
                 <li><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
                 <li class="has-sub"><a href="" title="Categories">Categories</a>
                     <ul>

@@ -175,7 +175,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="section-title">
                     <!-- section title start-->
-                    <h1>Latest News &amp; Diet Tips</h1>
+                    <h1>Tempus quam pellentesque nec nam</h1>
                 </div>
                 <!-- /.section title start-->
             </div>
@@ -190,10 +190,10 @@
                     <!-- post block -->
                     <div class="post-content">
                         <div class="meta">
-                            <span class="meta-categories"><a href="#">diet tips</a></span>
+                            <span class="meta-categories"><a href="#">Odio ut </a></span>
                             <span class="meta-date">30 July, 2020</span>
                         </div>
-                        <h4><a href="#" class="title">Green smoothie to go</a></h4>
+                        <h4><a href="#" class="title">Pharetra diam sit amet </a></h4>
                         <p>Nam vitae aliquet metus semper vehicula juonecin dolor....</p>
                         <a href="#" class="btn-link">read more</a>
                     </div>
@@ -209,10 +209,10 @@
                     <!-- post block -->
                     <div class="post-content">
                         <div class="meta">
-                            <span class="meta-categories"><a href="#">Weight Loss</a></span>
+                            <span class="meta-categories"><a href="#">Velit Velit</a></span>
                             <span class="meta-date">29 July, 2020</span>
                         </div>
-                        <h4><a href="#" class="title">Inflammation Fighting Foods</a></h4>
+                        <h4><a href="#" class="title">Sed risus pretium</a></h4>
                         <p>Vitae aliquet metus semperveicula juonecin doloreer ornare....</p>
                         <a href="#" class="btn-link">read more</a>
                     </div>
@@ -227,10 +227,10 @@
                     <!-- post block -->
                     <div class="post-content">
                         <div class="meta">
-                            <span class="meta-categories"><a href="#">Health Care </a></span>
+                            <span class="meta-categories"><a href="#">Non Enim</a></span>
                             <span class="meta-date">28 July, 2020</span>
                         </div>
-                        <h4><a href="#" class="title">Habits, health &amp; fitness news catchup</a></h4>
+                        <h4><a href="#" class="title">Est velit egestas dui id</a></h4>
                         <p>Aliquet metus semper vehiculase juonecin dolor sederate....</p>
                         <a href="#" class="btn-link">read more</a>
                     </div>
@@ -261,11 +261,13 @@
                                         <li><i class="fa fa-star-o"></i></li>
                                     </ul>
                                 </div>
-                                <h2>How Tracy Lost 25 lbs &amp;
-                                    Kept It Off</h2>
-                                <p class="testimonial-text">"I am happier and I have a lot more self-confidence when I am very active and eating clean libero purus imperdiet tortor, nec aliquam dui tortor at elit proin ac elit tortor"</p>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p class="testimonial-text">
+                                    "Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                 </p>
                                 <div class="testimonial-meta">
-                                    <span>- Tracy Adamcz</span> </div>
+                                    <span>- CICERO</span> </div>
                             </div>
                         </div>
                     </div>
@@ -286,11 +288,13 @@
                                         <li><i class="fa fa-star-o"></i></li>
                                     </ul>
                                 </div>
-                                <h2>Help for emotional binge
-                                    eating</h2>
-                                <p class="testimonial-text">“I really wanted to change my lifestyle and become more deliberate in making healthy choices. I realized that this wasn’t a feat that I could do by myself. ”</p>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p class="testimonial-text">
+                                    “Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco laboris nisi ut aliquip ex ea commodo consequat.”
+                                </p>
                                 <div class="testimonial-meta">
-                                    <span>-Ryder Lothian</span> </div>
+                                    <span>- CICERO</span> </div>
                             </div>
                         </div>
                     </div>
@@ -311,11 +315,13 @@
                                         <li><i class="fa fa-star-o"></i></li>
                                     </ul>
                                 </div>
-                                <h2>Help for a better food and
-                                    body fit</h2>
-                                <p class="testimonial-text">“I’m very grateful. Her supportive manner has made this task easy. A couple more kilos and I’ll be fitting into my wedding dress, She made me feel confident in her ability to help with my specific health concerns.”</p>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p class="testimonial-text">
+                                    “Ut enim ad minim veniam, quis nostrud exercitation
+                                     ullamco laboris nisi ut aliquip ex ea commodo consequat.”
+                                </p>
                                 <div class="testimonial-meta">
-                                    <span>-Brock Lambrick</span> </div>
+                                    <span>- CICERO</span> </div>
                             </div>
                         </div>
                     </div>

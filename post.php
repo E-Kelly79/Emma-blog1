@@ -100,7 +100,7 @@
                                                     </div>
                                                     <div class="related-post-content">
                                                         <h4 class="related-title">
-                                                            <a href="#" class="title">Drinking water dilutes stomach acid</a></h4>
+                                                            <a href="#" class="title">Nunc cursus leo risus non ac efficitur</a></h4>
                                                     </div>
                                                 </div>
                                                 <!-- /.related post -->
@@ -113,7 +113,7 @@
                                                     </div>
                                                     <div class="related-post-content">
                                                         <h4 class="related-title">
-                                                        <a href="#" class="title">Top 5 natural therapies to fight hpylori</a></h4>
+                                                        <a href="#" class="title">Nunc cursus leo risus non ac efficitur</a></h4>
                                                     </div>
                                                 </div>
                                                 <!-- /.related post -->
@@ -132,8 +132,8 @@
                                                             <div class="comment-author"> <img src="images/user-pic-1.jpg" alt="" class="img-circle"> </div>
                                                             <div class="comment-info">
                                                                 <div class="comment-header">
-                                                                    <h4>Meredith Kuntz</h4>
-                                                                    <span class="comment-meta-date">25 July, 2020</span>
+                                                                    <h4>Emma Martin</h4>
+                                                                    <span class="comment-meta-date">25 July, 2018</span>
                                                                 </div>
                                                                 <div class="comment-content">
                                                                     <p>Curabieet sitamet purus sed vestibulu ullam cursus, lacus eget pharetraium dui sed dius natoque penatibus et magnis dis parturiet the iaculis etiam.</p>
@@ -148,7 +148,7 @@
                                                             <div class="comment-info">
                                                                 <div class="comment-header">
                                                                     <h4>Ruby Simms</h4>
-                                                                    <span class="comment-meta-date">25 July, 2020</span>
+                                                                    <span class="comment-meta-date">25 July, 2018</span>
                                                                 </div>
                                                                 <div class="comment-content">
                                                                     <p>Proin purus diam, tristique quis pharetra et, pellentesque et jngilorem ipsum dolro sit amet psumellam hendrerit nibh eget sagittis hendrerit.</p>
@@ -160,7 +160,7 @@
                                                                     <div class="comment-author"><img src="images/user-pic-3.jpg" alt="" class="img-circle"></div>
                                                                     <div class="comment-info">
                                                                         <div class="comment-header">
-                                                                            <h4>Marquita Lee</h4>
+                                                                            <h4>Emma Martin</h4>
                                                                             <span class="comment-meta-date">25 July, 2020</span>
                                                                         </div>
                                                                         <div class="comment-content">
@@ -177,8 +177,8 @@
                                                             <div class="comment-author"><img src="images/user-pic-4.jpg" alt="" class="img-circle"></div>
                                                             <div class="comment-info">
                                                                 <div class="comment-header">
-                                                                    <h4>Cassandra Craft</h4>
-                                                                    <span class="comment-meta-date">25 July, 2020</span>
+                                                                    <h4>Emma Martin</h4>
+                                                                    <span class="comment-meta-date">25 July, 2018</span>
                                                                 </div>
                                                                 <div class="comment-content">
                                                                     <p>Curabieet sitamet purus sed vestibulu ullam cursus, lacus eget pharetraium dui sed dius natoque penatibus et magnis dis parturiet the iaculis etiam.</p>
@@ -256,8 +256,8 @@
                                     </div>
                                     <div class="author-post-content ">
                                         <div class="author-header">
-                                            <h3><a href="#" class="title">George Krupp</a></h3></div>
-                                        <div class="author-meta ">Nutrition, Diet Coach</div>
+                                            <h3><a href="#" class="title">Emma Martin</a></h3></div>
+                                        <div class="author-meta ">Food Blogger</div>
                                         <div class="author-content">
                                             <p>Aenean eu faucibus lectuenean is nec iaculis veliliam luctus enatises misit amet interdumdui.</p>
                                             <a href="#" class="btn btn-primary">View All Post</a> </div>
@@ -270,11 +270,11 @@
                     <div class=" widget widget-categories">
                         <h2 class="widget-title">Categories</h2>
                         <ul class="angle angle-right">
-                            <li><a href="#">Diet tips (10)</a></li>
-                            <li><a href="#">Health Care (12)</li>
-                            <li><a href="#">Healthy Recepies (14)</a></li>
-                            <li><a href="#">Weight Loss Tips (16)</a></li>
-                            <li><a href="#">Diet Programs (20)</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
                         </ul>
                     </div>
                     <!-- widget-categories-close -->
@@ -288,8 +288,8 @@
                                         <a href="#" class="imghover"><img src="./images/recent-post-1.jpg" alt="" class="img-responsive"></a>
                                     </div>
                                     <div class="meta">
-                                        <span class="meta-date"> 23 July, 2020</span></div>
-                                    <h5 class="recent-title "><a href="#" class="title">Inflammation Fighting Foods</a></h5>
+                                        <span class="meta-date"> 23 July, 2018</span></div>
+                                    <h5 class="recent-title "><a href="#" class="title">Nunc cursus leo risus non ac efficitur</a></h5>
                                 </div>
                             </li>
                             <li>
@@ -298,8 +298,8 @@
                                         <a href="#" class="imghover"> <img src="./images/recent-post-2.jpg" alt="" class="img-responsive"></a>
                                     </div>
                                     <div class="meta">
-                                        <span class="meta-date"> 23 July, 2020</span> </div>
-                                    <h5 class="recent-title"><a href="#" class="title">Habits, health &amp; fitness news </a></h5>
+                                        <span class="meta-date"> 23 July, 2018</span> </div>
+                                    <h5 class="recent-title"><a href="#" class="title">Nunc cursus leo risus non ac efficitur </a></h5>
                                 </div>
                             </li>
                             <li>
@@ -307,9 +307,9 @@
                                     <div class="recent-pic">
                                         <a href="#" class="imghover"> <img src="./images/recent-post-3.jpg" alt="" class="img-responsive"></a></div>
                                     <div class="meta">
-                                        <span class="meta-date">23 July, 2020</span>
+                                        <span class="meta-date">23 July, 2018</span>
                                     </div>
-                                    <h5 class="recent-title"><a href="#" class="title">Top 5 natural therapies  </a></h5>
+                                    <h5 class="recent-title"><a href="#" class="title">Nunc cursus leo risus non ac efficitur  </a></h5>
                                 </div>
                             </li>
                         </ul>
@@ -332,10 +332,26 @@
                             <ul>
                                 <li> <i class="icon-placeholder"></i>2177 Shearwood Forest , NH 03801</li>
                                 <li><i class="icon-phone-call"></i>+180-123-4567</li>
-                                <li><i class="icon-envelope"></i>info@dietcoach.com</li>
+                                <li><i class="icon-envelope"></i>info@emmascottagekitchen.com</li>
                             </ul>
                         </div>
-                        <div class="footer-social"> <a href="#"><span><i class="fa fa-facebook-square"></i></span></a> <a href="#"><span><i class="fa fa-google-plus-square"></i></span> </a> <a href="#"><span class="active"><i class="fa fa-twitter-square"></i> </span></a> <a href="#"><span><i class=" fa fa-pinterest-square"></i> </span></a> <a href="#"><span><i class="fa fa-linkedin-square"></i></span></a> </div>
+                        <div class="footer-social">
+                            <a href="#">
+                                <span><i class="fa fa-facebook-square"></i></span>
+                            </a> 
+                            <a href="#">
+                                <span><i class="fa fa-google-plus-square"></i></span> 
+                            </a> 
+                            <a href="#">
+                                <span class="active"><i class="fa fa-twitter-square"></i> </span>
+                            </a> 
+                            <a href="#">
+                            <span><i class=" fa fa-pinterest-square"></i> </span>
+                            </a> 
+                            <a href="#">
+                            <span><i class="fa fa-linkedin-square"></i></span>
+                            </a> 
+                        </div>
                     </div>
                 </div>
                 <!-- footer-useful links-start -->
@@ -344,11 +360,8 @@
                         <h3 class="footer-title">Quick Links</h3>
                         <ul class="angle angle-right">
                             <li><a href="#">Home </a></li>
-                            <li><a href="#">Service </a></li>
                             <li><a href="#">About me</a></li>
-                            <li><a href="#">Diet Plans </a></li>
                             <li> <a href="#">Blog</a></li>
-                            <li> <a href="#">Testimonials</a></li>
                         </ul>
                     </div>
                 </div>
@@ -381,7 +394,7 @@
                 <!-- footer-tiny-text-start -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="tiny-footer">
-                        <p>© 2020 - The Nutrition Diet Coach. All Rights Reserved.</p>
+                        <p>2018 - Emma's Cottage Kitchen</p>
                     </div>
                 </div>
                 <!-- footer-tiny-text-start -->
