@@ -5,6 +5,11 @@
     $db['db_pass'] = "";
     $db['db_name'] = "classes";
 
+//    $db['db_host'] = "localhost";
+//    $db['db_user'] = "u143232536_emma1";
+//    $db['db_pass'] = "R0utematch@101";
+//    $db['db_name'] = "u143232536_emma";
+
     foreach($db as $key => $value){
         define(strtoupper($key), $value);
     }

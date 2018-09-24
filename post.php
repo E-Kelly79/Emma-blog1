@@ -265,6 +265,7 @@
                                 </div>
                             </div>
                             <!-- /.post author -->
+
                     <!-- widget-categories-start -->
                     <div class=" widget widget-categories">
                         <h2 class="widget-title">Categories</h2>
@@ -277,18 +278,6 @@
                         </ul>
                     </div>
                     <!-- widget-categories-close -->
-                    <!-- widget-archievs-start -->
-                    <div class=" widget widget-archives">
-                        <h2 class="widget-title">Archives</h2>
-                        <ul class="angle angle-right">
-                            <li> <a href="#">December (2016)</a></li>
-                            <li> <a href="#">November (2016)</a></li>
-                            <li><a href="#">October (2016)</a></li>
-                            <li><a href="#">September (2016)</a></li>
-                            <li> <a href="#">August (2016)</a></li>
-                        </ul>
-                    </div>
-                    <!-- widget-archievs-close -->
                     <!-- widget-recent-post-start -->
                     <div class=" widget widget-recent-post">
                         <h2 class="widget-title mb20">Recent Post</h2>
@@ -326,11 +315,7 @@
                         </ul>
                     </div>
                     <!-- widget-recent-post-close-->
-                    <!-- widget-Tag start -->
-                    <div class=" widget widget-tags ">
-                        <h2 class=" widget-title">Tags</h2>
-                        <a href="#">Diet Coach</a><a href="#">Health care</a><a href="#">Nutrition</a><a href="#">Nutritionist </a></div>
-                    <!-- widget-Tag close -->
+
                 </div>
             </div>
         </div>

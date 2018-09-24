@@ -75,7 +75,7 @@ if(isset($_POST['checkBoxArray'])) {
                 <th>Id</th>
                 <th>Users</th>
                 <th>Title</th>
-                <!--<th>Category</th>-->
+                <th>Category</th>
                 <th>Status</th>
                 <th>Image</th>
                 <th>Tags</th>
@@ -113,32 +113,28 @@ if(isset($_POST['checkBoxArray'])) {
                     echo "<td>$post_user</td>";
                 }
                 echo "<td>$post_title</td>";
-//        $query = $connection->prepare("SELECT * FROM catergory WHERE cat_id = :post_cat_id");
-//        $result = $query->execute([':post_cat_id' => $post_category_id]);
-//        $user = $result->fetch();
-
-//        while($row = $result->fetch(PDO::FETCH_OBJ)) {
-//        $cat_id = $row->cat_id;
-//        $cat_title = $row->cat_title;
-//        echo "<td>$cat_title</td>";
-//        }
-        echo "<td>$post_status</td>";
-        echo "<td><img width='100' src='../images/$post_image' alt='image'></td>";
-        echo "<td>$post_tags</td>";
-        echo "<td>$post_date </td>";
-        echo "<td><a class='btn btn-primary' href='../post.php?p_id={$post_id}'>View Post</a></td>";
-        echo "<td><a class='btn btn-info' href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
-        ?>
+                    $cat_query = "SELECT * FROM catergory WHERE cat_id = ?";
+                    $result = $connection->prepare($cat_query);
+                    $result->execute(array($post_category_id));
+                    while($row = $result->fetch(PDO::FETCH_OBJ)) {
+                        $cat_id = $row->cat_id;
+                        $cat_title = $row->cat_title;
+                        echo "<td>$cat_title</td>";
+                    }
+                    echo "<td>$post_status</td>";
+                    echo "<td><img width='100' src='../images/$post_image' alt='image'></td>";
+                    echo "<td>$post_tags</td>";
+                    echo "<td>$post_date </td>";
+                    echo "<td><a class='btn btn-primary' href='../post.php?p_id={$post_id}'>View Post</a></td>";
+                    echo "<td><a class='btn btn-info' href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
+            ?>
             <form method="post">
                 <input type="hidden" name="post_id" value="<?php echo $post_id ?>">
                 <?php
-            echo '<td><input class="btn btn-danger" type="submit" name="delete" value="Delete"></td>';
-          ?>
+                    echo '<td><input class="btn btn-danger delete_link" type="submit" name="delete" value="Delete"></td>';
+                ?>
             </form>
             <?php
-         // echo "<td><a rel='$post_id' href='javascript:void(0)' class='delete_link'>Delete</a></td>";
-        // echo "<td><a onClick=\"javascript: return confirm('Are you sure you want to delete'); \" href='posts.php?delete={$post_id}'>Delete</a></td>";
-      //  echo "<td><a href='posts.php?reset={$post_id}'>{$post_views_count}</a></td>";
         echo "</tr>";
     }
       ?>
@@ -150,7 +146,7 @@ if(isset($_POST['checkBoxArray'])) {
      $the_post_id = $_POST['post_id'];
      $query = $connection->prepare("DELETE FROM posts WHERE post_id = :post_id");
      $query->execute([":post_id" => $the_post_id]);
-     header("Location: /cms/admin/posts.php");
+     header("Location: posts.php");
  }
 
  if(isset($_GET['reset'])){

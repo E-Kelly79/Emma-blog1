@@ -11,16 +11,17 @@
 </div>
 <!-- header-section close -->
 <!-- slider-start -->
+<!--
 <div class="slider">
     <div class="owl-carousel slider">
         <div class="item">
-            <div class="slider-img"> <img src="./images/slider-1.jpg" alt=""></div>
+            <div class="slider-img"> <img src="./images/brunch.jpg" width="1900px" height="700px" class="img-responsive" alt=""></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12  col-xs-12">
                         <div class="slider-profile">
                             <div class="back-pic"></div>
-<!--                            <div class="profile"><img src="./images/profile.jpg" alt="" class="img-responsive"></div>-->
+                            <div class="profile"><img src="./images/profile.jpg"  alt="" class="img-responsive"></div>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -65,6 +66,7 @@
         </div>
     </div>
 </div>
+-->
 <!-- slider-close -->
 <!-- Recent Blog Post -->
 <div class="space-medium bg-light">
@@ -73,7 +75,6 @@
             <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12">
                 <div class="about-section">
                     <h1>Recent Blog Post</h1>
-                    <p>Vestibulum quis massa nunroin tincidunt imper odio congue felis Perrnon porttiultricies aurasitame. </p>
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt20">
                             <h3>Lorem Ipsum</h3>
@@ -89,7 +90,7 @@
             </div>
             <div class="col-lg-offset-1 col-lg-5 col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
                 <div class="">
-                    <img src="./images/about-pic.jpg" alt="" class="img-responsive">
+                    <img src="./images/" alt="" class="img-responsive">
                 </div>
             </div>
         </div>
@@ -110,17 +111,31 @@
         </div>
         <div class="row">
             <?php
-                 $query = $connection->query("SELECT * FROM posts");
-                 while($row = $query->fetch(PDO::FETCH_OBJ)) :
-                $post_id = $row->post_id;
-                $post_title = $row->post_title;
-                $post_author = $row->post_author;
-                $post_date = $row->post_date;
-                $post_image = $row->post_image;
-                $post_content = substr($row->post_content,0,250);
-                $post_status = $row->post_status;
-                     ?>
+                if(isset($_GET['page'])){
+                    $page = $_GET['page'];
+                }else{
+                    $page = "";
+                }
 
+            if($page == "" || $page == 1){
+                $page_1 = 0;
+            }else{
+                $page_1 = ($page * 5)- 5;
+            }
+                $select_posts_count = "SELECT * FROM posts ";
+                $find_count = $connection->query($select_posts_count);
+                $count = $find_count->rowCount();
+            $count = ceil($count / 4);
+                $query = $connection->query("SELECT * FROM posts LIMIT $page_1, 6");
+                while($row = $query->fetch(PDO::FETCH_OBJ)) :
+                    $post_id = $row->post_id;
+                    $post_title = $row->post_title;
+                    $post_author = $row->post_author;
+                    $post_date = $row->post_date;
+                    $post_image = $row->post_image;
+                    $post_content = substr($row->post_content,0,153);
+                    $post_status = $row->post_status;
+            ?>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="service-block ">
                     <div class="service-img">
@@ -140,6 +155,13 @@
             </div>
             <?php endWhile ?>
         </div>
+        <ul class="pager">
+            <?php
+                for($i = 1; $i <= $count; $i++){
+                    echo "<li><a href='index.php?page={$i}'>{$i}</a></li>";
+                }
+            ?>
+        </ul>
     </div>
 </div>
 <!-- blog-close -->

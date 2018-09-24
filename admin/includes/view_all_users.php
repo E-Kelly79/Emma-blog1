@@ -12,7 +12,6 @@
     <tbody>
         <?php
         $query = $connection->query("SELECT * FROM users");
-
         while($row = $query->fetch(PDO::FETCH_OBJ)) {
             $user_id             = $row->user_id;
             $username            = $row->user_username;
@@ -26,7 +25,6 @@
             echo "<td>$user_id </td>";
             echo "<td>$username</td>";
             echo "<td>$user_firstname</td>";
-//
 //        $query = "SELECT * FROM categories WHERE cat_id = {$post_category_id} ";
 //        $select_categories_id = mysqli_query($connection,$query);
 //
@@ -64,15 +62,9 @@
 <?php
 if(isset($_GET['change_to_admin'])) {
     $the_user_id = escape($_GET['change_to_admin']);
-    $query = "UPDATE users SET user_role = 'admin' WHERE user_id = $the_user_id   ";
-    $change_to_admin_query = mysqli_query($connection, $query);
-    header("Location: users.php");
-}
-
-if(isset($_GET['change_to_sub'])){
-    $the_user_id = escape($_GET['change_to_sub']);
-    $query = "UPDATE users SET user_role = 'subscriber' WHERE user_id = $the_user_id   ";
-    $change_to_sub_query = mysqli_query($connection, $query);
+    $query = "UPDATE users SET user_role = 'admin' WHERE user_id = ?";
+    $change_to_admin_query = $connection->prepare($query);
+    $change_to_admin_query->execute(array($the_user_id));
     header("Location: users.php");
 }
 
@@ -80,10 +72,10 @@ if(isset($_GET['delete'])){
     if(isset($_SESSION['user_role'])) {
         if($_SESSION['user_role'] == 'admin') {
         $the_user_id = escape($_GET['delete']);
-        $query = "DELETE FROM users WHERE user_id = {$the_user_id} ";
-        $delete_user_query = mysqli_query($connection, $query);
+        $query = "DELETE FROM users WHERE user_id = ?";
+        $delete_user_query = $connection->prepare($query);
+        $delete_user_query->execute($the_user_id);
         header("Location: users.php");
-
             }
         }
     }

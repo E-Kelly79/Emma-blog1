@@ -1,12 +1,14 @@
 <?php
     include "db.php";
+    global $connection;
+    ob_start();
     session_start();
     if(isset($_POST["login"])){
         $username = $_POST["username"];
         $password = $_POST["password"];
-        $query = "SELECT * FROM users WHERE user_username = ? AND user_password = ?";
+        $query = "SELECT * FROM users WHERE user_username = ?";
         $user = $connection->prepare($query);
-        $user->execute(array($username, $password));
+        $theUser = $user->execute(array($username));
         while($row = $user->fetch()){
             $user_id = $row["user_id"];
             $user_username = $row["user_username"];
@@ -16,7 +18,7 @@
             $user_role = $row["user_role"];
         }
 
-        if($username === $user_username && $password === $user_password){
+        if(password_verify($password, $user_password)){
             $_SESSION['username'] = $user_username;
             $_SESSION['firstname'] = $firstname;
             $_SESSION['lastname'] = $lastname;
@@ -25,5 +27,4 @@
         }else{
             header("Location: ../index.php");
         }
-
     }
